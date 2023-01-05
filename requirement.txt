@@ -1,0 +1,6 @@
+dlib==19.22.99
+face-recognition
+face-recognition-models
+numpy==1.22.3
+opencv-python
+requests
