@@ -62,7 +62,9 @@ while cap.isOpened():
             name = known_face_names[index_of_true]
         else:
             color = red
-            cropped_face = frame[top:bottom,left:right]
+            # cropped_face = frame[top:bottom,left:right]
+            cropped_face = frame
+
 
             # Unknown user without pickle file
             if int(utils.get_pkl_value(main_path=tmp_dir)) == 0:
