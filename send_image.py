@@ -17,7 +17,7 @@ chatid  = 	-614486677
 """
 
 chatid  = 	-614486677
-TOKEN_KEY = "5513359344:AAEfZmRj1aTXVeqtiTM8UrUoHCTC1tbhPM0"
+TOKEN_KEY = "api-key"
 
 def send_image(file_name):
     path = os.path.join('tmp',file_name)
